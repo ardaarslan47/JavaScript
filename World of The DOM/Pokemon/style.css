@@ -1,0 +1,13 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 50px;
+    display: block;
+}
+
+div:has(.square){
+    text-align: center;
+}

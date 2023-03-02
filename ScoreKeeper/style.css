@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: auto;
+}
+
+img {
+    width: 400px;
+}
+
+#container {
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: column;
+    transition: ease-out ;
+    transition-duration: 500ms;
+}
+
+#container:hover {
+    box-shadow: 1px 1px 15px black;
+}
+
+.header {
+    border: 1px solid gray;
+    margin: 0 ;
+    padding: 5px;
+    text-align: center;
+}
+
+#buttonContainer {
+    display: flex;
+}
+
+button {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+#scoreContainer {
+    text-align: center;
+}
+
+#playerOnePlus {
+    color: white;
+    background-color: rgb(97, 202, 167);
+}
+
+#playerOnePlus:hover {
+    background-color: rgb(78, 163, 135);
+}
+
+#playerOnePlus:active {
+    background-color: rgb(66, 136, 112) ;
+}
+
+#playerTwoPlus {
+    color: white;
+    background-color: rgb(1, 118, 189);
+}
+
+#playerTwoPlus:hover {
+    background-color: rgb(2, 96, 155);
+}
+
+#playerTwoPlus:active {
+    background-color: rgb(2, 75, 121) ;
+}
+
+#reset {
+    color: white;
+    background-color: rgb(216, 17, 89);
+}
+
+#reset:hover {
+    background-color: rgb(180, 13, 75);
+}
+
+#reset:active {
+    background-color: rgb(138, 10, 57);
+}
